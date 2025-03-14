@@ -1,16 +1,21 @@
 {
-  "name": "app",
+  "name": "my-marketplace-app",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "expo": "^52.0.38",
-    "firebase": "^11.4.0"
+    "expo": "^47.0.0",
+    "firebase": "^9.0.0",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-native": "0.70.0",
+    "react-native-web": "0.18.7"
+  },
+  "devDependencies": {
+    "expo-cli": "^5.0.0",
+    "typescript": "^5.3.3",
+    "@types/react": "~18.3.12"
+  },
+  "scripts": {
+    "start": "expo start"
   }
 }

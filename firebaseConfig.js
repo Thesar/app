@@ -1,3 +1,4 @@
+// firebaseConfig.js
 import firebase from 'firebase/app';
 import 'firebase/auth';  // Import Firebase Authentication
 
@@ -10,6 +11,7 @@ const firebaseConfig = {
   appId: "YOUR_APP_ID"
 };
 
+// Initialize Firebase
 if (!firebase.apps.length) {
   firebase.initializeApp(firebaseConfig);
 } else {

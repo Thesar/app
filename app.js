@@ -1,3 +1,4 @@
+// App.js
 import React, { useState } from 'react';
 import { Text, TextInput, Button, View } from 'react-native';
 import { firebase } from './firebaseConfig';  // Import the Firebase config
